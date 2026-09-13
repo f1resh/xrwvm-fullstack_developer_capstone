@@ -9,7 +9,6 @@ class CarMake(models.Model):
         validators=[MinValueValidator(1888), MaxValueValidator(2026)]
     )
 
-
     def __str__(self):
         return self.name
 
